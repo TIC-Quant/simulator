@@ -1,5 +1,5 @@
 contourpy==1.0.7
-cosi @ git+https://github.com/TIC-Quant/coin_simulator.git@75897daec67bd4ce6b8c70992c4c5eb6b35041f3
+cosi @ git+https://github.com/TIC-Quant/coin_simulator.git@6695089f796a0ca576a2b6d7faf9cb56cbbb2272
 cycler==0.11.0
 fonttools==4.39.4
 kiwisolver==1.4.4
