@@ -3,10 +3,10 @@ import cosi
 
 # Create your views here.
 def index(request):
-    performance = get_performance()
+    per = get_performance()
     # print(performance)
     return render(request, 'simulator/index.html',{
-        "performance": "아아악"
+        "performance": test_dic()
     })
 
 def get_performance():
@@ -16,5 +16,11 @@ def get_performance():
     cosi.indicator_to_signal(df, factor='rsi', buy=30, sell=70)
     cosi.position(df)
     cosi.evaluate(df, cost=.001)
-    print("으악"+cosi.performance(df, rf_rate=0.01))
-    return cosi.performance(df, rf_rate=0.01)
+    per = cosi.performance(df, rf_rate=.01)
+    print(per)
+    return per
+
+def test_dic():
+    a = {}
+    a['hello'] = "bye"
+    return a
