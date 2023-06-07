@@ -3,7 +3,7 @@ backports.zoneinfo==0.2.1
 certifi==2023.5.7
 charset-normalizer==3.1.0
 contourpy==1.0.7
-cosi @ git+https://github.com/TIC-Quant/coin_simulator.git@6695089f796a0ca576a2b6d7faf9cb56cbbb2272
+cosi==0.0.8
 cycler==0.11.0
 Django==4.2.2
 fonttools==4.39.4

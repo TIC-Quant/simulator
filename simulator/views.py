@@ -4,9 +4,9 @@ import cosi
 # Create your views here.
 def index(request):
     per = get_performance()
-    # print(performance)
+    print(cosi.test())
     return render(request, 'simulator/index.html',{
-        "performance": test_dic()
+        "performance": get_performance()
     })
 
 def get_performance():
